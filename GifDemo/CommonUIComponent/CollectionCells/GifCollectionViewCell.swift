@@ -6,10 +6,16 @@
 //
 
 import UIKit
+import Alamofire
+import AlamofireImage
 
 class GifCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageView: UIImageView!{
+        didSet{
+            imageView.contentMode = .scaleAspectFit
+        }
+    }
     
     @IBOutlet weak var btnFavorite: UIButton!
     
@@ -55,4 +61,11 @@ class GifCollectionViewCell: UICollectionViewCell {
         btnFavorite.setImage(UIImage(named: "favoriteFilled"), for: .normal)
     }
     
+    func loadGif(gif: GifModel){
+//        imageView.image = UIImage.gif(url: gif.url)
+        if let url = URL(string: gif.gifSources.original.url ) {
+            imageView.af_setImage(withURL: url, placeholderImage: #imageLiteral(resourceName: "placeholder_image"), imageTransition: .crossDissolve(0.1), runImageTransitionIfCached: true)
+            
+        }
+    }
 }

@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05402FD127CD063500088494 /* GifFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05402FD027CD063500088494 /* GifFeedModel.swift */; };
+		0540AE7627CBA2FF007424A5 /* GifExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0540AE7527CBA2FF007424A5 /* GifExtension.swift */; };
 		054EA9EE27C90ACE005B9789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054EA9ED27C90ACE005B9789 /* AppDelegate.swift */; };
 		054EA9F027C90ACF005B9789 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054EA9EF27C90ACF005B9789 /* SceneDelegate.swift */; };
 		054EA9F227C90ACF005B9789 /* GifSearcherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054EA9F127C90ACF005B9789 /* GifSearcherVC.swift */; };
@@ -23,6 +25,9 @@
 		054EAA8127C96CA0005B9789 /* GifNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054EAA8027C96CA0005B9789 /* GifNetworkManager.swift */; };
 		054EAA8827C96F67005B9789 /* GifSearcherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054EAA8727C96F67005B9789 /* GifSearcherViewModel.swift */; };
 		054EAA8D27C96F7A005B9789 /* GifFavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054EAA8C27C96F7A005B9789 /* GifFavoriteViewModel.swift */; };
+		6F26E4A16C6485047E6BAF88 /* Pods_GifDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8359ECAE97091FE95139812 /* Pods_GifDemoTests.framework */; };
+		CD365B518DA007DD4C4B99B5 /* Pods_GifDemo_GifDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D0733CCB58B11FE702D402 /* Pods_GifDemo_GifDemoUITests.framework */; };
+		E9367856AEB9E5FE5D7A8303 /* Pods_GifDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC56DBE14064336DEA00F86 /* Pods_GifDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05402FD027CD063500088494 /* GifFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifFeedModel.swift; sourceTree = "<group>"; };
+		0540AE7527CBA2FF007424A5 /* GifExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifExtension.swift; sourceTree = "<group>"; };
 		054EA9EA27C90ACE005B9789 /* GifDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		054EA9ED27C90ACE005B9789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		054EA9EF27C90ACF005B9789 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +72,15 @@
 		054EAA8027C96CA0005B9789 /* GifNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifNetworkManager.swift; sourceTree = "<group>"; };
 		054EAA8727C96F67005B9789 /* GifSearcherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifSearcherViewModel.swift; sourceTree = "<group>"; };
 		054EAA8C27C96F7A005B9789 /* GifFavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifFavoriteViewModel.swift; sourceTree = "<group>"; };
+		1F91813401BFC5F317E44889 /* Pods-GifDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifDemoTests.release.xcconfig"; path = "Target Support Files/Pods-GifDemoTests/Pods-GifDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		472A126D38BA105033FCD655 /* Pods-GifDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifDemo.debug.xcconfig"; path = "Target Support Files/Pods-GifDemo/Pods-GifDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		493F41FB343DA48A38198128 /* Pods-GifDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifDemo.release.xcconfig"; path = "Target Support Files/Pods-GifDemo/Pods-GifDemo.release.xcconfig"; sourceTree = "<group>"; };
+		50D0733CCB58B11FE702D402 /* Pods_GifDemo_GifDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GifDemo_GifDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC56DBE14064336DEA00F86 /* Pods_GifDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GifDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8359ECAE97091FE95139812 /* Pods_GifDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GifDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C7603CE34826CA63C4BBCA /* Pods-GifDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-GifDemoTests/Pods-GifDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D729D97972F43DF2A7F4AF90 /* Pods-GifDemo-GifDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifDemo-GifDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-GifDemo-GifDemoUITests/Pods-GifDemo-GifDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0A088F9E3AC7D7020CB0CF5 /* Pods-GifDemo-GifDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifDemo-GifDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-GifDemo-GifDemoUITests/Pods-GifDemo-GifDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9367856AEB9E5FE5D7A8303 /* Pods_GifDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F26E4A16C6485047E6BAF88 /* Pods_GifDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +104,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD365B518DA007DD4C4B99B5 /* Pods_GifDemo_GifDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0540AE7427CBA2EA007424A5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0540AE7527CBA2FF007424A5 /* GifExtension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		054EA9E127C90ACE005B9789 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +126,8 @@
 				054EAA0627C90AD0005B9789 /* GifDemoTests */,
 				054EAA1127C90AD0005B9789 /* GifDemoUITests */,
 				054EA9EB27C90ACE005B9789 /* Products */,
+				96A005753088BE88EF6177C4 /* Pods */,
+				2C548A0ABB3E60AD6FC166D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +144,7 @@
 		054EA9EC27C90ACE005B9789 /* GifDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0540AE7427CBA2EA007424A5 /* Helper */,
 				054EAA7727C966A9005B9789 /* NetworkLayer */,
 				054EAA6E27C96333005B9789 /* Models */,
 				054EAA4527C93519005B9789 /* CommonUIComponent */,
@@ -211,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				054EAA6F27C9634B005B9789 /* GifModel.swift */,
+				05402FD027CD063500088494 /* GifFeedModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -240,6 +271,29 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		2C548A0ABB3E60AD6FC166D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EC56DBE14064336DEA00F86 /* Pods_GifDemo.framework */,
+				50D0733CCB58B11FE702D402 /* Pods_GifDemo_GifDemoUITests.framework */,
+				A8359ECAE97091FE95139812 /* Pods_GifDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96A005753088BE88EF6177C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				472A126D38BA105033FCD655 /* Pods-GifDemo.debug.xcconfig */,
+				493F41FB343DA48A38198128 /* Pods-GifDemo.release.xcconfig */,
+				E0A088F9E3AC7D7020CB0CF5 /* Pods-GifDemo-GifDemoUITests.debug.xcconfig */,
+				D729D97972F43DF2A7F4AF90 /* Pods-GifDemo-GifDemoUITests.release.xcconfig */,
+				D0C7603CE34826CA63C4BBCA /* Pods-GifDemoTests.debug.xcconfig */,
+				1F91813401BFC5F317E44889 /* Pods-GifDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 054EAA1727C90AD0005B9789 /* Build configuration list for PBXNativeTarget "GifDemo" */;
 			buildPhases = (
+				9BE47B276322485A91E49800 /* [CP] Check Pods Manifest.lock */,
 				054EA9E627C90ACE005B9789 /* Sources */,
 				054EA9E727C90ACE005B9789 /* Frameworks */,
 				054EA9E827C90ACE005B9789 /* Resources */,
+				A787C4E1526A41F18ACCA3D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 054EAA1A27C90AD0005B9789 /* Build configuration list for PBXNativeTarget "GifDemoTests" */;
 			buildPhases = (
+				C3562074652F903A2BBD6BDF /* [CP] Check Pods Manifest.lock */,
 				054EA9FF27C90AD0005B9789 /* Sources */,
 				054EAA0027C90AD0005B9789 /* Frameworks */,
 				054EAA0127C90AD0005B9789 /* Resources */,
@@ -282,9 +339,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 054EAA1D27C90AD0005B9789 /* Build configuration list for PBXNativeTarget "GifDemoUITests" */;
 			buildPhases = (
+				A3B48406D10C5799B24E7CC5 /* [CP] Check Pods Manifest.lock */,
 				054EAA0A27C90AD0005B9789 /* Sources */,
 				054EAA0B27C90AD0005B9789 /* Frameworks */,
 				054EAA0C27C90AD0005B9789 /* Resources */,
+				778687D056A96E6A426707B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -365,6 +424,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		778687D056A96E6A426707B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifDemo-GifDemoUITests/Pods-GifDemo-GifDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifDemo-GifDemoUITests/Pods-GifDemo-GifDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GifDemo-GifDemoUITests/Pods-GifDemo-GifDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE47B276322485A91E49800 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GifDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B48406D10C5799B24E7CC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GifDemo-GifDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A787C4E1526A41F18ACCA3D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifDemo/Pods-GifDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifDemo/Pods-GifDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GifDemo/Pods-GifDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3562074652F903A2BBD6BDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GifDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		054EA9E627C90ACE005B9789 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -374,6 +536,7 @@
 				054EA9F227C90ACF005B9789 /* GifSearcherVC.swift in Sources */,
 				054EA9EE27C90ACE005B9789 /* AppDelegate.swift in Sources */,
 				054EAA4B27C947D9005B9789 /* GifCollectionViewCell.swift in Sources */,
+				0540AE7627CBA2FF007424A5 /* GifExtension.swift in Sources */,
 				054EAA8D27C96F7A005B9789 /* GifFavoriteViewModel.swift in Sources */,
 				054EA9F027C90ACF005B9789 /* SceneDelegate.swift in Sources */,
 				054EAA7027C9634B005B9789 /* GifModel.swift in Sources */,
@@ -381,6 +544,7 @@
 				054EAA8127C96CA0005B9789 /* GifNetworkManager.swift in Sources */,
 				054EAA8827C96F67005B9789 /* GifSearcherViewModel.swift in Sources */,
 				054EA9F827C90ACF005B9789 /* GifDemo.xcdatamodeld in Sources */,
+				05402FD127CD063500088494 /* GifFeedModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +717,7 @@
 		};
 		054EAA1827C90AD0005B9789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472A126D38BA105033FCD655 /* Pods-GifDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -571,6 +736,7 @@
 		};
 		054EAA1927C90AD0005B9789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493F41FB343DA48A38198128 /* Pods-GifDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -589,6 +755,7 @@
 		};
 		054EAA1B27C90AD0005B9789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C7603CE34826CA63C4BBCA /* Pods-GifDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -610,6 +777,7 @@
 		};
 		054EAA1C27C90AD0005B9789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F91813401BFC5F317E44889 /* Pods-GifDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -631,6 +799,7 @@
 		};
 		054EAA1E27C90AD0005B9789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A088F9E3AC7D7020CB0CF5 /* Pods-GifDemo-GifDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -650,6 +819,7 @@
 		};
 		054EAA1F27C90AD0005B9789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D729D97972F43DF2A7F4AF90 /* Pods-GifDemo-GifDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
